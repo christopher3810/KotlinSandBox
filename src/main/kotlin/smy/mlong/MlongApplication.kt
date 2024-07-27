@@ -1,11 +1,11 @@
-package com.ksandbox.demo
+package smy.mlong
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
 
 @SpringBootApplication
-class DemoApplication
+class MlongApplication
 
 fun main(args: Array<String>) {
-	runApplication<DemoApplication>(*args)
+	runApplication<MlongApplication>(*args)
 }
