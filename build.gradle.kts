@@ -25,6 +25,8 @@ dependencies {
 	//implementation("org.springframework.boot:spring-boot-starter-jooq")
 	//runtimeOnly("org.postgresql:postgresql")
 
+	implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.8.1")
+
 	implementation("org.springframework.boot:spring-boot-starter-security")
 	implementation("org.springframework.boot:spring-boot-starter-web")
 	implementation("com.fasterxml.jackson.module:jackson-module-kotlin")
